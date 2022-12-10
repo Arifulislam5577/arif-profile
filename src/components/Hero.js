@@ -1,6 +1,4 @@
 import React from "react";
-
-import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <section className="home min-h-screen  grid items-center lg:justify-between justify-center lg:grid-cols-4 grid-cols-1 container   content-center gap-5">
