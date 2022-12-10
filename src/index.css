@@ -7,6 +7,17 @@
 body {
   font-family: "Lora", serif;
   background-image: linear-gradient(to left, #1e293b, black);
+  height: 100%;
+}
+
+html,
+#root {
+  height: 100%;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .btn {
