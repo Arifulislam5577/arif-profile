@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      lobster: ["Lobster", "cursive"],
+    },
     extend: {},
     container: {
       center: true,
