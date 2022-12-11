@@ -1,13 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lora:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Inter:wght@400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: "Lora", serif;
+  font-family: "Inter", serif;
   background-image: linear-gradient(to left, #1e293b, black);
   height: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to left, #1e293b, black);
 }
 
 html,

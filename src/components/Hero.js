@@ -1,25 +1,26 @@
 import React from "react";
 const Hero = () => {
   return (
-    <section className="home min-h-screen  grid items-center lg:justify-between justify-center lg:grid-cols-4 grid-cols-1 container   content-center gap-5">
+    <section className="home py-20 grid items-center lg:justify-between justify-center lg:grid-cols-4 grid-cols-1 container   content-center gap-5">
       <div className=" col-span-2 lg:block flex items-center lg:justify-start justify-center flex-col lg:text-left text-center lg:order-1 order-2">
         <h1 className="text-gray-50 lg:text-4xl text-2xl lg:my-1 font-bold ">
-          MERN STACK DEVELOPER
-        </h1>
-        <h1 className="text-gray-50 lg:text-3xl text-xl lg:my-1 my-2 font-bold">
-          <span className="text-red-500">MD ARIFUL ISLAM</span>
+          MD ARIFUL ISLAM
         </h1>
 
         <p className="text-gray-50 lg:max-w-md w-full">
-          I'm a mern stack developer focused on developing Javascript based web
-          applications. I love to manage everything from complex logic to the
-          awesome layout of a web application.
+          I'm a{" "}
+          <span className="text-white bg-red-600 px-2 capitalize py-1 rounded">
+            mern stack developer
+          </span>{" "}
+          focused on developing Javascript based web applications. I love to
+          manage everything from complex logic to the awesome layout of a web
+          application.
         </p>
         <div className="mt-5">
           <a
             href="./files/MD ARIFUL ISLAM RESUME REACT.pdf"
             download
-            className="btn shadow-xl shadow-slate-900 inline-block"
+            className="bg-red-600 py-2 px-5 text-white rounded text-sm shadow-xl shadow-slate-900 inline-block"
           >
             Download Resume
           </a>
