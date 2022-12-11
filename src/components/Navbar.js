@@ -25,8 +25,8 @@ const Navbar = () => {
         </div>
         <nav className="text-white hidden text-sm lg:flex items-center justify-between gap-5">
           <Link to="/about">About Me</Link>
-          <Link to="/contact">Contact Me</Link>
-          <Link to="/projects">Projects</Link>
+          <a href="#contact">Contact Me</a>
+          <a href="#projects">Projects</a>
           <Link to="/blogs">My Blogs</Link>
           <a
             href="./files/MD ARIFUL ISLAM RESUME REACT.pdf"

@@ -38,7 +38,7 @@ const Contact = () => {
     }
   };
   return (
-    <section className="pb-10">
+    <section className="pb-10" id="contact">
       <div className="container">
         <div className="inline-flex justify-center items-center w-full my-5">
           <hr className="my-8 w-64 h-1 bg-gray-200 rounded border-0 dark:bg-gray-700" />
