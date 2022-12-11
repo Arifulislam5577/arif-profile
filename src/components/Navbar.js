@@ -24,10 +24,10 @@ const Navbar = () => {
           </Link>
         </div>
         <nav className="text-white hidden text-sm lg:flex items-center justify-between gap-5">
-          <Link to="/">About Me</Link>
-          <Link to="/">Contact Me</Link>
-          <Link to="/">Projects</Link>
-          <Link to="/">My Blogs</Link>
+          <Link to="/about">About Me</Link>
+          <Link to="/contact">Contact Me</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/blogs">My Blogs</Link>
           <a
             href="./files/MD ARIFUL ISLAM RESUME REACT.pdf"
             download
@@ -36,11 +36,11 @@ const Navbar = () => {
             Resume
           </a>
         </nav>
-        <button onClick={() => setShowNav(!showNav)}>
+        <button className="lg:hidden" onClick={() => setShowNav(!showNav)}>
           <HiOutlineMenuAlt3 size={28} color="white" />
         </button>
         <nav
-          className={`text-white text-base lg:text-sm w-full md:w-2/5 bg-slate-900 h-full top-0 right-0 z-10 flex-col flex items-center justify-center  gap-5 fixed ${
+          className={`text-white lg:hidden text-base w-full md:w-2/5 bg-slate-900 h-full top-0 right-0 z-10 flex-col flex items-center justify-center  gap-5 fixed ${
             showNav ? "translate-x-0" : "translate-x-full"
           } duration-300 transition-all`}
         >
@@ -50,10 +50,10 @@ const Navbar = () => {
           >
             <FaTimes size="32" />
           </button>
-          <Link to="/">About Me</Link>
-          <Link to="/">Contact Me</Link>
-          <Link to="/">Projects</Link>
-          <Link to="/">My Blogs</Link>
+          <Link to="/about">About Me</Link>
+          <Link to="/contact">Contact Me</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/blogs">My Blogs</Link>
           <a
             href="./files/MD ARIFUL ISLAM RESUME REACT.pdf"
             download
