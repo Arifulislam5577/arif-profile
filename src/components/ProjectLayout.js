@@ -12,7 +12,7 @@ const ProjectLayout = ({ project }) => {
   return (
     <div className="lg:col-span-1 w-full">
       <div className="bg-slate-800 rounded overflow-hidden shadow-lg">
-        <img src={coverImage} alt="" />
+        <img src={coverImage[0]} alt="" />
 
         <div className="px-5 pt-5 pb-6 ">
           <div className="flex items-center justify-between">

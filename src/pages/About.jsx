@@ -52,21 +52,37 @@ const About = () => {
             </p>
 
             <div className="flex items-center gap-5 my-5">
-              <button>
-                <FaFacebookF size="20" />
-              </button>
-              <button>
-                <FaGithub size="20" />
-              </button>
-              <button>
-                <FaLinkedinIn size="20" />
-              </button>
-              <button>
-                <FaTwitter size="20" />
-              </button>
-              <button>
-                <FaPhone size="20" />
-              </button>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.facebook.com/arif.3399"
+              >
+                <FaFacebookF size="20" color="white" />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.github.com/Arifulislam5577"
+              >
+                <FaGithub size="20" color="white" />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.github.com/Arifulislam5577"
+              >
+                <FaLinkedinIn size="20" color="white" />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/arifulislam5577"
+              >
+                <FaTwitter size="20" color="white" />
+              </a>
+              <a target="_blank" rel="noreferrer" href="tel:+8801722903107">
+                <FaPhone size="20" color="white" />
+              </a>
             </div>
 
             <div>

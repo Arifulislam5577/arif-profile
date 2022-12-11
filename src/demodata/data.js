@@ -15,8 +15,12 @@ export const projects = [
     ],
     live: "https://rolex-ec266.web.app",
     code: "https://github.com/Arifulislam5577/rolex-shopping",
-    coverImage:
+    coverImage: [
       "https://res.cloudinary.com/arif5577/image/upload/v1648128437/Shopping-cart/Untitled_design_k2szlu.png",
+      "https://res.cloudinary.com/arif5577/image/upload/v1670761638/Shopping-cart/1_xptvxx.png",
+      "https://res.cloudinary.com/arif5577/image/upload/v1670761637/Shopping-cart/2_brijxw.png",
+    ],
+
     usedTechnology: [
       "React Js",
       "React Router Dom",
@@ -55,8 +59,12 @@ export const projects = [
     ],
     live: "https://newsman-849a8.web.app",
     code: "https://github.com/Arifulislam5577/newsman-blog-app",
-    coverImage:
+    coverImage: [
       "https://res.cloudinary.com/arif5577/image/upload/v1648128436/Shopping-cart/Untitled_design_1_trund8.png",
+      "https://res.cloudinary.com/arif5577/image/upload/v1670766600/Shopping-cart/1_mshvh8.png",
+      "https://res.cloudinary.com/arif5577/image/upload/v1670768292/Shopping-cart/2_xi2mt8.png",
+    ],
+
     projectType: "blog app",
     startTime: "May 03",
     endTime: "May 20",
@@ -87,8 +95,12 @@ export const projects = [
     ],
     live: "https://travelin-327a3.web.app",
     code: "https://github.com/Arifulislam5577/travelin-cilent",
-    coverImage:
+    coverImage: [
       "https://res.cloudinary.com/arif5577/image/upload/v1670737852/Shopping-cart/travel_t4wmvn.png",
+      "https://res.cloudinary.com/arif5577/image/upload/v1670737852/Shopping-cart/travel_t4wmvn.png",
+      "https://res.cloudinary.com/arif5577/image/upload/v1670737852/Shopping-cart/travel_t4wmvn.png",
+    ],
+
     projectType: "business app",
     startTime: "November 08",
     endTime: "November 20",
@@ -107,8 +119,11 @@ export const projects = [
     ],
     live: "https://nikeshoe-a57fd.web.app",
     code: "https://github.com/Arifulislam5577/NikeShoe",
-    coverImage:
+    coverImage: [
       "https://res.cloudinary.com/arif5577/image/upload/v1648118173/Shopping-cart/Untitled_design_1_icpbiz.png",
+      "https://res.cloudinary.com/arif5577/image/upload/v1648118173/Shopping-cart/Untitled_design_1_icpbiz.png",
+      "https://res.cloudinary.com/arif5577/image/upload/v1648118173/Shopping-cart/Untitled_design_1_icpbiz.png",
+    ],
     usedTechnology: [
       "React Js",
       "React Router Dom",

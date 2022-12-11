@@ -13,21 +13,37 @@ const Footer = () => {
         <div className="flex items-center justify-between">
           <p className="text-white text-sm">Connect with Md Ariful Islam</p>
           <div className="flex items-center gap-5">
-            <button>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.facebook.com/arif.3399"
+            >
               <FaFacebookF size="14" color="white" />
-            </button>
-            <button>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.github.com/Arifulislam5577"
+            >
               <FaGithub size="14" color="white" />
-            </button>
-            <button>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.github.com/Arifulislam5577"
+            >
               <FaLinkedinIn size="14" color="white" />
-            </button>
-            <button>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/arifulislam5577"
+            >
               <FaTwitter size="14" color="white" />
-            </button>
-            <button>
+            </a>
+            <a target="_blank" rel="noreferrer" href="tel:+8801722903107">
               <FaPhone size="14" color="white" />
-            </button>
+            </a>
           </div>
         </div>
       </div>

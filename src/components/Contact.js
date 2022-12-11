@@ -81,7 +81,7 @@ const Contact = () => {
             ></textarea>
           </div>
           <div className="md:col-span-4 w-full">
-            <button className="bg-red-500 w-full py-3 text-white rounded">
+            <button className="bg-red-600 w-full py-3 text-white rounded">
               {loading ? "Loading..." : "Send Email"}
             </button>
           </div>

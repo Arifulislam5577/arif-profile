@@ -26,7 +26,7 @@ body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(to left, #1e293b, black);
 }
 .carousel .thumbs-wrapper {
-  margin: 20px 0px;
+  margin: 20px 0px !important;
 }
 html,
 #root {
