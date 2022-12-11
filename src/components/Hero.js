@@ -9,7 +9,7 @@ const Hero = () => {
 
         <p className="text-gray-50 lg:max-w-md w-full">
           I'm a{" "}
-          <span className="text-white bg-red-600 px-2 capitalize py-1 rounded">
+          <span className="text-red-600 capitalize font-bold">
             mern stack developer
           </span>{" "}
           focused on developing Javascript based web applications. I love to

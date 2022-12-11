@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between">
         <div className="logo">
           <Link to="/" className=" text-xl text-white">
-            <img src="/images/logo.png" alt="Logo" className="w-full h-full" />
+            <img src="/images/logo.png" alt="Logo" className="w-full" />
           </Link>
         </div>
         <nav className="text-white hidden text-sm lg:flex items-center justify-between gap-5">

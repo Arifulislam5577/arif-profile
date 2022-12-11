@@ -54,7 +54,7 @@ const Contact = () => {
           <div className="md:col-span-2 w-full">
             <input
               type="text"
-              className="block w-full focus:outline-none py-3 px-5 rounded bg-slate-500 placeholder:text-sm placeholder:text-slate-100"
+              className="block w-full  py-3 px-5 rounded bg-slate-800 placeholder:text-sm text-white"
               required
               placeholder="Your Name"
               value={name}
@@ -64,7 +64,7 @@ const Contact = () => {
           <div className="md:col-span-2 w-full">
             <input
               type="email"
-              className="block w-full focus:outline-none py-3 px-5 rounded bg-slate-500 placeholder:text-sm placeholder:text-slate-100"
+              className="block w-full  py-3 px-5 rounded bg-slate-800 placeholder:text-sm text-white "
               required
               placeholder="Your Email"
               value={email}
@@ -73,7 +73,7 @@ const Contact = () => {
           </div>
           <div className="md:col-span-4 w-full">
             <textarea
-              className="w-full rounded bg-slate-500 p-5 placeholder:text-sm placeholder:text-slate-100"
+              className="w-full rounded bg-slate-800 p-5 placeholder:text-sm text-white"
               rows="5"
               placeholder="Your Message"
               value={message}
