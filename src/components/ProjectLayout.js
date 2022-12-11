@@ -1,9 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const ProjectLayout = ({ project }) => {
+  const navigate = useNavigate();
   const { coverImage, title, projectType, id, description, live, code } =
     project;
+
+  const handleClick = (projectId) => {
+    navigate(`/project/${projectId}`, { state: project });
+  };
   return (
     <div className="lg:col-span-1 w-full">
       <div className="bg-slate-800 rounded overflow-hidden shadow-lg">
@@ -17,29 +22,29 @@ const ProjectLayout = ({ project }) => {
           <p className="text-xs text-gray-500 my-3">
             {description.split(" ").slice(0, 17).join(" ")}...
           </p>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 justify-start">
             <a
               href={live}
-              className="text-white text-xs bg-red-600 py-1.5 shadow-xl px-3 rounded"
+              className="text-white text-xs bg-slate-900 py-1.5 shadow-xl px-3 rounded"
               target="_blank"
               rel="noreferrer"
             >
               Live
             </a>
             <a
-              className="text-white text-xs bg-red-600 py-1.5 shadow-xl px-3 rounded"
+              className="text-white text-xs bg-slate-900 py-1.5 shadow-xl px-3 rounded"
               target="_blank"
               rel="noreferrer"
               href={code}
             >
               Code
             </a>
-            <Link
-              className="text-white text-xs bg-red-600 py-1.5 shadow-xl px-3 rounded"
-              to={`/project/${id}`}
+            <button
+              className="text-white text-xs bg-slate-900 py-1.5 shadow-xl px-3 rounded"
+              onClick={() => handleClick(id)}
             >
               Details
-            </Link>
+            </button>
           </div>
         </div>
       </div>

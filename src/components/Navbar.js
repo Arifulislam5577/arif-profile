@@ -16,11 +16,11 @@ const Navbar = () => {
       setShowNav(false);
     });
   return (
-    <header className="">
+    <header className="py-5">
       <div className="container flex items-center justify-between">
         <div className="logo">
           <Link to="/" className=" text-xl text-white">
-            <img src="/images/logo.png" alt="Logo" className="w-full h-28" />
+            <img src="/images/logo.png" alt="Logo" className="w-full h-full" />
           </Link>
         </div>
         <nav className="text-white hidden text-sm lg:flex items-center justify-between gap-5">

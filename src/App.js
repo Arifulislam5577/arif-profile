@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import About from "./pages/About";
 import Blogs from "./pages/Blogs";
 import Home from "./pages/Home";
+import ProjectDetails from "./pages/ProjectDetails";
 
 export default function App() {
   const router = createBrowserRouter([
@@ -13,6 +14,7 @@ export default function App() {
         { index: true, element: <Home /> },
         { path: "/about", element: <About /> },
         { path: "/blogs", element: <Blogs /> },
+        { path: "/project/:id", element: <ProjectDetails /> },
       ],
     },
   ]);
