@@ -11,7 +11,9 @@ const Footer = () => {
     <footer className=" bg-slate-800 py-5">
       <div className="container">
         <div className="flex items-center justify-between">
-          <p className="text-white text-sm">Connect with Md Ariful Islam</p>
+          <p className="text-white lg:text-sm text-xs">
+            Connect with Md Ariful Islam
+          </p>
           <div className="flex items-center gap-5">
             <a
               target="_blank"

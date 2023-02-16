@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../demodata/data";
-import ProjectLayout from "./ProjectLayout";
+import SingleProject from "./SingleProject";
 
 const Projects = () => {
   return (
@@ -13,9 +13,9 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-          {projects.map((project) => (
-            <ProjectLayout key={project.id} project={project} />
+        <div className="">
+          {projects.map((project, index) => (
+            <SingleProject index={index} key={project.id} project={project} />
           ))}
         </div>
       </div>

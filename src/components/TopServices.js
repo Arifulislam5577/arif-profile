@@ -1,77 +1,58 @@
 import React from "react";
-import { FaLaptopCode, FaMobileAlt, FaCode } from "react-icons/fa";
+
+import Reveal from "react-reveal/Reveal";
+import { Zoom } from "react-reveal";
 const TopServices = () => {
+  const skills = [
+    "html",
+    "css",
+    "scss",
+    "bootstrap",
+    "tailwind css",
+    "javascript",
+    "typescript",
+    "react js",
+    "redux",
+    "react-redux",
+    "react-thunk",
+    "react-toolkit",
+    "RTK Query",
+    "next js",
+    "node js",
+    "express js",
+    "mongodb",
+    "data structures",
+    "Algorithms",
+  ];
   return (
-    <section>
-      <div className="inline-flex justify-center items-center w-full my-5">
-        <hr className="my-8 w-64 h-1 bg-gray-200 rounded border-0 dark:bg-gray-700" />
-        <div className="absolute left-1/2 px-4 text-white -translate-x-1/2 bg-gray-900 text-2xl">
-          Top Skills
+    <div className="py-10">
+      <div className="container">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
+          <Zoom>
+            <div className="col-span-1">
+              <img src="/images/hero.png" alt="" />
+            </div>
+          </Zoom>
+          <Reveal effect="fadeInUp">
+            <div className="col-span-1">
+              <h1 className="capitalize text-white text-2xl font-bold">
+                my abilities and proficiencies
+              </h1>
+              <div className="flex flex-wrap gap-2 mt-4">
+                {skills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="text-white px-5 hover:bg-red-600 hover:text-white transition-all duration-200 cursor-grab py-1.5 text-sm rounded-full border border-white capitalize"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </Reveal>
         </div>
       </div>
-      <div className="container grid grid-cols-1  lg:grid-cols-3 gap-5">
-        <div className="lg:col-span-1">
-          <div className="grid grid-cols-4 gap-3 border-l-4 border-red-600 p-5 bg-slate-800 shadow-2xl items-center justify-center">
-            <div className="col-span-1 flex items-center justify-center">
-              <FaMobileAlt size={44} color="white" />
-            </div>
-            <div className="col-span-3">
-              <div className="">
-                <h2 className="text-white capitalize font-bold text-base ">
-                  Front end web development
-                </h2>
-                <p className="text-white text-xs mt-3 text-justify">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-                  illum accusamus ex error ratione quisquam esse? Mollitia
-                  commodi quidem necessitatibus harum, quaerat cum doloremque
-                  quia.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="lg:col-span-1">
-          <div className="grid grid-cols-4 gap-3 border-l-4 border-red-600 p-5 bg-slate-800 shadow-2xl items-center justify-center">
-            <div className="col-span-1 flex items-center justify-center">
-              <FaCode size={44} color="white" />
-            </div>
-            <div className="col-span-3">
-              <div className="">
-                <h2 className="text-white capitalize font-bold text-base ">
-                  backend web development
-                </h2>
-                <p className="text-white text-xs mt-3 text-justify">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-                  illum accusamus ex error ratione quisquam esse? Mollitia
-                  commodi quidem necessitatibus harum, quaerat cum doloremque
-                  quia.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="lg:col-span-1">
-          <div className="grid grid-cols-4 gap-3 border-l-4 border-red-600 p-5 bg-slate-800 shadow-2xl items-center justify-center">
-            <div className="col-span-1 flex items-center justify-center">
-              <FaLaptopCode size={44} color="white" />
-            </div>
-            <div className="col-span-3">
-              <div className="">
-                <h2 className="text-white capitalize font-bold text-base ">
-                  Full stack web development
-                </h2>
-                <p className="text-white text-xs mt-3 text-justify">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-                  illum accusamus ex error ratione quisquam esse? Mollitia
-                  commodi quidem necessitatibus harum, quaerat cum doloremque
-                  quia.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
   );
 };
 

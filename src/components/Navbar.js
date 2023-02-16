@@ -31,7 +31,7 @@ const Navbar = () => {
           <a
             href="./files/MD ARIFUL ISLAM RESUME REACT.pdf"
             download
-            className="bg-red-600 py-2 text-white px-3 rounded"
+            className="bg-red-600 py-2 text-white px-5 block rounded-full"
           >
             Resume
           </a>
@@ -57,7 +57,7 @@ const Navbar = () => {
           <a
             href="./files/MD ARIFUL ISLAM RESUME REACT.pdf"
             download
-            className="bg-red-600 py-2 text-white px-3 rounded"
+            className="bg-red-600 py-2 text-white px-5 block rounded-full"
           >
             Resume
           </a>
