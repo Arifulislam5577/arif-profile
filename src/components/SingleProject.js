@@ -8,7 +8,7 @@ const SingleProject = (props) => {
   return (
     <div className="py-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-        <Fade left>
+        <Fade top>
           <div
             className={`col-span-1 ${
               index % 2 === 0 ? "lg:order-1" : "lg:order-2"
@@ -21,13 +21,13 @@ const SingleProject = (props) => {
             />
           </div>
         </Fade>
-        <Fade right>
+        <Fade bottom>
           <div
             className={`col-span-1 text-white ${
               index % 2 === 0 ? "lg:order-2" : "lg:order-1"
             }`}
           >
-            <div className="flex items-center justify-between ">
+            <div className="flex items-center justify-between mb-3">
               <h1 className="text-2xl font-bold">{project?.title}</h1>
               <div className="flex items-center gap-3">
                 <a
